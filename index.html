@@ -27,8 +27,20 @@
             </ul>
           </nav>
        <ul class="ul-nostyle contact-nav">
-          <li class="item"><a class="link-nostyle contact-text" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="item"><a class="link-nostyle contact-text" href="tel:380961111111">+380961111111</a></li>
+          <li class="item"><a class="link-nostyle contact-text" href="mailto:info@devstudio.com">
+                                  <svg class="contact-icon" width=16 height=12>
+                                     <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                                  </svg>
+                                  <span>info@devstudio.com</span>    
+                            </a>
+          </li>
+          <li class="item"><a class="link-nostyle contact-text" href="tel:380961111111">
+                                  <svg class="contact-icon" width=10 height=16>
+                                    <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                                 </svg>
+                                      <span> +380961111111</span>
+                           </a>
+            </li>
        </ul>      
       </div>
 
@@ -37,7 +49,7 @@
     <main>
 
            <!--Основная надпись с кнопкой-->
-      <section class="hero-type">
+      <section class="hero-type overlay">
         <div class="container">
          <h1 class="hero-text">эффективные решения<br>для вашего бизнеса</h1>
           <button type="button" class="button primary">Заказать услугу</button>
@@ -75,13 +87,13 @@
            <h2 class="title-text task-title">Чем мы занимаемся</h2>
            <ul class="ul-nostyle task-list">
              <li class="task-element">
-                 <img src="./images/img1.png" alt="img1" width="370">
+                 <img src="./images/box-1-min.jpg" alt="img1" width="370">
              </li>
              <li class="task-element">
-                 <img src="./images/img2.png" alt="img2" width="370">
+                 <img src="./images/box-2-min.jpg" alt="img2" width="370">
              </li>
              <li class="task-element">
-                 <img src="./images/img3.png" alt="img3" width="370">
+                 <img src="./images/box-3-min.jpg" alt="img3" width="370">
              </li>
            </ul>
         </div>
@@ -93,35 +105,222 @@
             <h2 class="title-text person-title">Наша команда</h2>
             <ul class="ul-nostyle person-list">
               <li class="person-element">
-                <img src="./images/01.jpg" alt="Игорь Демьяненко" width="270">
+                <img src="./images/01-min.jpg" alt="Игорь Демьяненко" width="270">
                 <h3 class="title-text name-text">Игорь Демьяненко</h3>
                 <p class="paragraf-style person-work">Product designer</p>
+                <div class="social-content">
+                  <ul class="ul-nostyle social-list">
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
+                         </svg>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="person-element">
-                <img src="./images/04.jpg" alt="Ольга Репина" width="270">
+                <img src="./images/04-min.jpg" alt="Ольга Репина" width="270">
                 <h3 class="title-text name-text">Ольга Репина</h3>
                 <p class="paragraf-style person-work">Frontend Developer</p>
+                <div class="social-content">
+                  <ul class="ul-nostyle social-list">
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
+                         </svg>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="person-element">
-                <img src="./images/03.jpg" alt="Николай Тарасов" width="270">
+                <img src="./images/03-min.jpg" alt="Николай Тарасов" width="270">
                 <h3 class="title-text name-text">Николай Тарасов</h3>
                 <p class="paragraf-style person-work">Marketing</p>
+                <div class="social-content">
+                  <ul class="ul-nostyle social-list">
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
+                         </svg>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="person-element">
-                <img src="./images/02.jpg" alt="Михаил Ермаков" width="270">
+                <img src="./images/02-min.jpg" alt="Михаил Ермаков" width="270">
                 <h3 class="title-text name-text">Михаил Ермаков</h3>
                 <p class="paragraf-style person-work">UI Designer</p>
+                <div class="social-content">
+                  <ul class="ul-nostyle social-list">
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                         </svg>
+                      </button>
+                    </li>
+                    <li class="social-elevent">
+                      <button type="button" class="social-button">
+                         <svg class="buton-icon" >
+                           <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
+                         </svg>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               </li>
             </ul>
         </div>
       </section>   
+      <section class="regular-clients">
+        <div class="container">
+          <h2 class="title-text clients-title">Постоянные клиенты</h2>
+            <ul class="ul-nostyle list-clients">
+                   <li class="item-clients">
+                     <a href="#" class="link-nostyle logo-tipe">
+                      <svg class= clients-logo width=50 height=45>
+                        <use href="./images/symbol-defs.svg#icon-logo-1"></use>
+                      </svg>
+                         <span class="visually-hidden"> client 1</pspan>
+                    </a>
+                   </li>
+                   <li class="item-clients">
+                    <a href="#" class="link-nostyle logo-tipe">
+                      <svg class= clients-logo width=40 height=52>
+                        <use href="./images/symbol-defs.svg#icon-logo-2"></use>
+                      </svg>
+                         <span class="visually-hidden"> client 1</pspan>
+                    </a>
+                   </li> 
+                   <li class="item-clients">
+                    <a href="#" class="link-nostyle logo-tipe">
+                      <svg class= clients-logo width=41 height=43>
+                        <use href="./images/symbol-defs.svg#icon-logo-3"></use>
+                      </svg>
+                         <span class="visually-hidden"> client 1</pspan>
+                    </a>
+                   </li> 
+                   <li class="item-clients">
+                    <a href="#" class="link-nostyle logo-tipe">
+                      <svg class= clients-logo width=80 height=43>
+                        <use href="./images/symbol-defs.svg#icon-logo-4"></use>
+                      </svg>
+                         <span class="visually-hidden"> client 1</pspan>
+                    </a>
+                   </li> 
+                   <li class="item-clients">
+                    <a href="#" class="link-nostyle logo-tipe">
+                      <svg class= clients-logo width=59 height=47>
+                        <use href="./images/symbol-defs.svg#icon-logo-5"></use>
+                      </svg>
+                         <span class="visually-hidden"> client 1</pspan>
+                    </a>
+                   </li>
+                   <li class="item-clients">
+                    <a href="#" class="link-nostyle logo-tipe">
+                      <svg class= clients-logo width=89 height=46>
+                        <use href="./images/symbol-defs.svg#icon-logo-6"></use>
+                      </svg>
+                         <span class="visually-hidden"> client 1</pspan>
+                    </a>
+                   </li>
+
+            </ul>
+
+        </div>
+
+
+
+      </section>
     </main>
 
-  
     <!--Подвал-->    
     <footer class="footer-type">       
-      <div class="container">
-        
+      <div class="container footer-contact">
+        <div class="adress-container">
          <a class="link-footer logo" href="./index.html">Web<span class="footer-color">Studio</span></a>          
         
          <ul class="ul-nostyle footer-list">
@@ -137,6 +336,40 @@
              <a class="link-footer contact-text" href="tel:380961111111">+380961111111</a>
            </li>
          </ul>
+        </div>
+        <div>
+          <p class="footer-social-title">присоединяйтесь</p>
+          <ul class="ul-nostyle social-list">
+            <li class="social-elevent">
+              <button type="button" class="social-button buton-footer">
+                 <svg class="buton-icon" >
+                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                 </svg>
+              </button>
+            </li>
+            <li class="social-elevent">
+              <button type="button" class="social-button buton-footer">
+                 <svg class="buton-icon" >
+                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                 </svg>
+              </button>
+            </li>
+            <li class="social-elevent">
+              <button type="button" class="social-button buton-footer">
+                 <svg class="buton-icon" >
+                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                 </svg>
+              </button>
+            </li>
+            <li class="social-elevent">
+              <button type="button" class="social-button buton-footer">
+                 <svg class="buton-icon" >
+                   <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
+                 </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
     </div>
      
     </footer>   
