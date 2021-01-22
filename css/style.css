@@ -117,6 +117,38 @@ address { font-style: normal; }
 .footer-element:last-child {
     margin-bottom: 0;
 }
+/* Иконки футера */
+
+.adress-container {
+    margin-right: 70px;
+}
+.footer-contact {
+    display: flex;
+}
+.footer-social-title {
+    margin: 0px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.143;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+
+   color: var(--hero-text-color);
+  
+}
+/* иконки почті и телефона */
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.buton-footer {  
+    background-color: rgba(255, 255,255, .1);
+    color: var(--hero-text-color);
+}
 /* Оформление заголовков */
 .title-text {
     margin-top: 0;
@@ -530,34 +562,4 @@ margin-right: 30px;
      background-color: var(--button-accent-color);
  }
  
- /* иконки почті и телефона */
- .contact-icon {
-     margin-right: 10px;
-     fill: currentColor;
- }
- /* Иконки футера */
-
- .adress-container {
-     margin-right: 70px;
- }
- .footer-contact {
-     display: flex;
- }
- .footer-social-title {
-     margin: 0px;
-     margin-top: 12px;
-     margin-bottom: 20px;
-
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: var(--hero-text-color);
-   
- }
- .buton-footer {  
-     background-color: rgba(255, 255,255, .1);
-     color: var(--hero-text-color);
- }
+ 
