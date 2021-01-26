@@ -267,16 +267,15 @@ img {
 
 }
 .person-work {
+    margin-top: 0px;
+    margin-bottom: 16px;
+
     text-align: center;
 
     font-size: 16px;
     line-height: 19px;
 }
-.paragraf-style {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  
-  }
+
 .visually-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -313,6 +312,7 @@ align-items: center;
     justify-content: space-between;
 }
 .skils-text {
+    margin: 0;
     letter-spacing: 0.03em;
 }
 .skils-container,
@@ -362,7 +362,7 @@ margin-right: 30px;
     margin-right: 0px;
 }
 .person-information {
-    padding: 30px 0px;
+    padding: 30px 32px;
 }
 .person-element {
     width: 270px;
@@ -486,13 +486,14 @@ margin-right: 30px;
 
 
 /* кнопки соцсетей */
-.social-content {
+.social-content,
+.social-list  {
     display: flex;
-    padding: 10px 32px 0;
 }
+/* 
 .social-list {
     display: flex;
-}
+} */
 .social-button {
     display: flex;
     justify-content: center;
